@@ -1,0 +1,36 @@
+body{
+
+    font-family:  'Open Sans',sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+
+        border-bottom: 1px solid black;
+}
+
+
+
+#pic {
+
+
+    float:right;
+}
+
+
+.tech-prof {
+
+    margin-left: 0px;
+}
+
+.date
+{
+    float:right;
+
+}
+
+#name
+{
+
+    border-bottom: 1px solid black;
+}
