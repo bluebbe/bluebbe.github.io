@@ -9,7 +9,7 @@
         [
             {"bullet": "The Software Guild is an intensive, fast-paced apprenticeship program that produces .NET / C# full-stack software developers."},
             {"bullet":"Used C# and the .NET framework to create a business application for flooring company that enabled users to add, delete, & edit clients and ordes.  The program was also capable of reading and writing to files to allow for product and state tax updates."},
-            {"bullet":"Built two websites, a restaurant and a dice game, that incorporated multiple pages, imagery, and internal links using HTML, CSS, Javascript, and Bootstrap."},
+            {"bullet":"Built two websites, a restaurant and a car dealership, that incorporated multiple pages, imagery, and internal links using HTML, CSS, Javascript, and Bootstrap."},
             {"bullet":"Utilized Atlassian Tools (JIRA, Crucible, BitBucket, and HipChat) for version control, workflow management, and team communication."}
         ]
      },
