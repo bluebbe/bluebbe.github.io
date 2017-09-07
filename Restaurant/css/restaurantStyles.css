@@ -1,0 +1,59 @@
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+th {
+    font-size:larger;
+}
+
+#menu{
+    background: rgb(1,247,147);
+}
+
+#hpcontent {
+    background: rgb(10,100,200);
+}
+
+label {
+    font-weight: bold;
+}
+
+
+
+a:visited {
+  
+  
+  background-color: rgb(120,120,120);
+  
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    text-decoration: none;
+
+}
+
+
+
+#beverage{
+    border-collapse: collapse;
+
+
+   
+}
+#beverage thead{
+    text-decoration: underline;
+ 
+}
+
+#beverage td{
+
+    padding-bottom: 16px;
+    padding-top: 0;
+}
+td.colprice{
+    text-align: right;
+}

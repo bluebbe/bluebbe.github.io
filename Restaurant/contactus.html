@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <title>Home Page</title>
+           <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+    
+    
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+    <!-- Optional theme -->
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+    </script>
+        <link href="./css/restaurantStyles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container-fluid">
+        <h1 style="text-align:center">Double R Dinner</h1>
+         <div class="jumbotron">
+            <h2>Opening New Location</h2>
+            Double R Dinner is openning in new location within the downtown area of Seatle, Washington.
+
+        </div>
+        <hr/>        
+        <ul class="nav nav-pills">
+            <li ><a href="./index.html"><span class="glyphicon glyphicon-home"></a></li>
+            <li><a href="./menu.html">Menu</a></li> 
+            <li class="active"><a href="./contactus.html">Contact Us</a></li>
+        </ul>
+        <hr/>
+        <noscript>
+        <h2 style="color: red;text-align: center"><strong>This site is best viewed with JavaScript enabled.</strong></h2>
+        </noscript>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" style="text-align: center" role="listbox">
+                <div class="item active" >
+                    <h2>We're opening a new location!</h2>
+                </div>
+
+                <div class="item">
+                    <h2>We're rolling out our seasonal menu, with special options for this season.</h2>
+                </div>
+
+                <div class="item">
+                    <h2>The Drink of the Month is SG Special Brew.<h>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div>
+        <form action="" method="POST">
+        <table>
+                <tr>
+               <td style="text-align:right"><label for="first">First Name:</label></td>
+               <td><input type="text" name=firstName id="first"/></td>
+           </tr>
+           <tr>
+               <td style="text-align:right"><label for="last">Last Name:</label></td>
+               <td><input type="text" name=lastName id="last" /></td>
+           </tr>
+           <tr>
+               <td style="text-align:right"><label for="emailaddress">Email:</label></td>
+               <td><input type="text" name=email id="emailaddress"/></td>
+           </tr>
+           <tr>
+               <td style="text-align:right"><label for="reason">Reason for Inquiry:<label></td>
+               <td>  
+                   <select name="reasons" id="reason">
+                            <option value="catering">Catering</option>
+                            <option value="private_party">Private Party</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">Other</option>
+                    </select>
+                </td>
+           </tr>
+           <tr>
+               <td style="text-align:right">
+                   <label for="info">Additional Information:</label>
+               </td>
+               <td>
+                <textarea name="addInfo" rows="4" id="info"></textarea>
+               </td>
+           </tr>
+           <tr>
+               <td style="text-align:right"><label>Have you been to the restaurant?</label></td>
+               <td><input type="radio" name="previous_visit" value="no" checked id="noVisit"/><label for="noVisit">No</label>
+                        <input type="radio" name="previous_visit" value="yes" id="yesVisit"/><label for="yesVisit">Yes</label></td>
+           </tr>
+           <tr>
+                <td style="text-align:right">
+                  <label>Best days to contact you:</label>
+               </td>
+               <td>
+                   
+                    <input type="checkbox" name="contactyou" id="mon"/><label for="mon">M</label>
+                    <input type="checkbox" name="contactyou" id="tue"/><label for="tue">T</label>
+                    <input type="checkbox" name="contactyou" id="wed"/><label for="wed">W</label>
+                    <input type="checkbox" name="contactyou" id="thur"/><label for="thur">Th</label>
+                    <input type="checkbox" name="contactyou" id="fri"/><label for="fri">F</label>
+                    
+               </td>
+           </tr>
+           <tr>
+               <td/>
+                <td style="text-align:center">
+                     <input type="submit" name="send" value="Send Request"/>
+                </td>
+           </tr>
+        </table>
+        </form>
+        </div>
+        <hr/>
+      <div style="text-align:center">
+            137 W North Bend Way, Twin Peaks, WA, 98045</br></br>
+            (555) 555 - 5511
+        </div>
+        <hr/>
+        </div>
+    </body>
+</html>

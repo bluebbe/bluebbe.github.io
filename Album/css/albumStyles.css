@@ -1,0 +1,66 @@
+
+table {
+    border: 1px solid black;
+    width: 100%;
+     text-align: center;
+    border-spacing: 0;
+}
+
+th {
+    background-color: gray;
+      border: 1px solid black;
+      text-align: center;
+    
+}
+
+td{
+      border: 1px solid black;
+}
+
+
+#band h1 {
+        font-family: 'Roboto',Arial,sans-serif;
+
+}
+
+div h2{
+    font-family: 'Comic Sans MS',Arial, sans-serif;
+      text-align: center;
+}
+
+#picAblum {
+    background-image: url("../images/u2.jpg");
+    width: 225px;
+    height: 225px;
+    margin: auto;
+
+       
+}
+
+li {
+    font-style: italic;
+}
+
+
+
+tbody{
+
+    font-style: italic;
+}
+
+tbody:nth-child(even) {
+    background-color: rgb(144,100,65);
+}
+
+a {
+      text-decoration: none;
+}
+
+a:hover {
+  
+  text-decoration: underline;
+  background-color: rgb(121,120,120);
+  font-family: cursive;
+}
+
+
