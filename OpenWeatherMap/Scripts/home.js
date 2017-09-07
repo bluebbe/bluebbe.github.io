@@ -21,7 +21,7 @@
         
         var zip = $('#get-zip').val();
         var units = $('#get-unit').val();
-        var urlFull = 'http://api.openweathermap.org/data/2.5/weather?zip=' + zip + ',US&units=' + units + '&appid=c4aeafe25268a015afb944119f6b4ea4';
+        var urlFull = 'https://api.openweathermap.org/data/2.5/weather?zip=' + zip + ',US&units=' + units + '&appid=c4aeafe25268a015afb944119f6b4ea4';
 
         $.ajax({
             type: 'GET',
@@ -32,7 +32,7 @@
                 var temp = (units === 'metric') ? 'C' : 'F';
                 var weather = weatherData.weather[0];
                 
-                $('#weatherIcon').append('<img src="http://openweathermap.org/img/w/'+ weather.icon +'.png" />');
+                $('#weatherIcon').append('<img src="https://openweathermap.org/img/w/'+ weather.icon +'.png" />');
                 $('#weatherDescription').append(weather.description);
                 $('#weatherTemp').append('Temperature: ' + weatherData.main.temp + ' ' + temp);
                 $('#weatherHumidity').append('Humidity: ' + weatherData.main.humidity+'%');
@@ -73,7 +73,7 @@ function fiveDayForecast(cityId){
    
     var zip = $('#get-zip').val();
     var units = $('#get-unit').val();
-    var urlFull='http://api.openweathermap.org/data/2.5/forecast/daily?zip='+zip+',US&units='+units+'&appid=c4aeafe25268a015afb944119f6b4ea4'
+    var urlFull='https://api.openweathermap.org/data/2.5/forecast/daily?zip='+zip+',US&units='+units+'&appid=c4aeafe25268a015afb944119f6b4ea4'
     $.ajax({
         type: 'GET',
         url: urlFull,
@@ -89,7 +89,7 @@ function fiveDayForecast(cityId){
                 if(index <5) {
                 $('#data-day'+index).append(dayFormat);    
                                         
-            $('#data-weather-icon-day' + index).append('<img src="http://openweathermap.org/img/w/' + value.weather[0].icon + '.png" />');
+            $('#data-weather-icon-day' + index).append('<img src="https://openweathermap.org/img/w/' + value.weather[0].icon + '.png" />');
             $('#data-weather-description-day' + index).append(value.weather[0].main);
             $('#data-temperature-day' + index).append('H '+ value.temp.max +' '+ temp+' L '+ value.temp.min + ' ' + temp );
     
