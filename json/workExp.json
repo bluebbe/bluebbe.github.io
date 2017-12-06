@@ -10,7 +10,10 @@
             {"bullet": "The Software Guild is an intensive, fast-paced apprenticeship program that produces .NET / C# full-stack software developers."},
             {"bullet":"Used C# and the .NET framework to create a business application for flooring company that enabled users to add, delete, & edit clients and ordes.  The program was also capable of reading and writing to files to allow for product and state tax updates."},
             {"bullet":"Built two websites, a restaurant and a car dealership, that incorporated multiple pages, imagery, and internal links using HTML, CSS, Javascript, and Bootstrap."},
-            {"bullet":"Utilized Atlassian Tools (JIRA, Crucible, BitBucket, and HipChat) for version control, workflow management, and team communication."}
+            {"bullet":"Utilized Atlassian Tools (JIRA, Crucible, and BitBucket) for version control, workflow management, and team communication."},
+         {"bullet":"Collaborated with fellow apprentices on paired programming project that resulted in the completion of a game review blog website."},
+         {"bullet":"Maintained daily tech talk entries involving core C#/.Net concepts including; Inheritance, Interface, Data Modeling, LINQ, Unit Testing, Types and Variables, etc."},
+          {"bullet":"Presented weekly code reviews on current projects to lead instructors."}
         ]
      },
      
@@ -48,5 +51,46 @@
             {"bullet" : "Research/Test solutions such SAP Business Intelligence for a centralize database to collect system performance metric from multiple databases. Multiple reports can be created from centralize database."}
 
             ]
+    },
+     {
+
+
+            "company" : "CHS Inc. (Contract)",
+            "title" : "Windows Workstation Support Analyst",
+            "start_date" : "2014",
+            "end_date" : "2014",
+            "summary" : "",
+            "bulletpt" :[
+                {"bullet":"Assist existing team with migration efforts from Windows XP(End of Life) to Windows 7."},
+                {"bullet": "Image new Workstations/Laptops/Tablets, install specific Business Unit Applications, and copy user data."},
+                {"bullet": "Migration process and Incident tickets were track using Cherwell."},
+                {"bullet":"Notify Business Analyst of non-compatible software that can’t be installed or not working on Windows 7."},
+                {"bullet":"Provided onsite and remote level II support to customers."}
+            ]
+                                                        
+
+
+
+    },
+
+    {
+            "company" : "Federal Aviation Administration (Contract)",
+            "title" : "Help Desk / Desktop Support II",
+            "start_date" : "2009",
+            "end_date" : "2014",
+            "summary" : "",
+            "bulletpt" :[
+                {"bullet":"Exceeded required gooal of 95% SLA resolution. Remote goal at least 75%."},
+                {"bullet": "Primarily responsible for responding to user incidents within SLA and providing desk side support."},
+                {"bullet": "Field Support will provide Tier 2 incident/support response from Incident Management."},
+                {"bullet": "If issue can’t be resolved remotely, support will travel to the user’s location."},
+                {"bullet": "On network or server problems additional assist might be required to resolve by Tier 2."},
+                {"bullet":"Facilitated the lifecycle of the Windows 7 migration, MS Office 2010 & 365 (End-user Support) rollout projects."},
+                {"bullet":"Demonstrate comprehension of Service Level Attainment and Key Performance Indicators regarding delivery of service by effectively meeting incident response and resolution metrics as measured by Incident Management. Exceeded required goal of 95% SLA resolution. Remote goal at least 75%."},
+                {"bullet":"Found creative ways so as to come to resolution for the end-user as quickly as possible and document in Knowledge Management."},
+                {"bullet":"Active Used and supported ticketing tool such as Remedy."}
+            ]
+
     }
+
  ]
