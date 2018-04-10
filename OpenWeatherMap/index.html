@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -14,22 +14,22 @@
         <hr />
 
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-sm-11 col-md-11">
                 <form class="form-horizontal" role="form" id="get-weather">
 
                     <div class="form-group">
-                        <label for="get-zip" class="col-md-4 control-label">Zipcode:</label>
-                        <div class="col-md-2">
+                        <label for="get-zip" class="col-sm-2 col-md-4 control-label">Zipcode:</label>
+                        <div class="col-sm-3 col-md-2">
                             <input type="text" class="form-control" id="get-zip" placeholder="Enter Zipcode" />
                         </div>
-                        <label for="get-unit" class="col-md-1 control-label">Unit:</label>
-                        <div class="col-md-2">
+                        <label for="get-unit" class="col-sm-2 col-md-1 control-label">Unit:</label>
+                        <div class="col-sm-3 col-md-2">
                             <select class="form-control" id="get-unit">
                                 <option>imperial</option>
                                 <option>metric</option>
                             </select>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-sm-1 col-md-2">
                             <button type="button" id="get-weather-button" class="btn btn-default">Get Weather</button>
                         </div>
                     </div>
@@ -52,27 +52,27 @@
         <h2>Current Conditions in </h2><br />
         <div class="row">
 
-                                        <div id="currentLeftColumn" class="col-md-4">
-                                            
-                                            <div id="weatherIcon" class="col-md-2">
-                                    
-                                            </div>
-                                            <div id="weatherDescription" class="col-md-2">
-                                        
-                                            </div>
-                                        </div>
-                                        <div id="currentRightColumn" class="col-md-4">
-                                            <div id="weatherTemp">
+            <div id="currentLeftColumn" class="col-sm-4 col-md-4 col-md-offset-1">
+                
+                <div id="weatherIcon" class="col-sm-1 col-md-2">
+        
+                </div>
+                <div id="weatherDescription" class="col-sm-2 col-sm-offset-1 col-md-offset-0 col-md-2">
+            
+                </div>
+            </div>
+            <div id="currentRightColumn" class="col-sm-4 col-md-4">
+                <div id="weatherTemp">
 
-                                            </div>
-                                            <div id="weatherHumidity">
+                </div>
+                <div id="weatherHumidity">
 
-                                            </div>
-                                            <div id="weatherWindSpeed">
+                </div>
+                <div id="weatherWindSpeed">
 
-                                            </div>
-                                        
-                                        </div>
+                </div>
+            
+            </div>
                                     
         </div>
     </div>
@@ -80,68 +80,68 @@
         <hr />
         <h2>Five Day Forecast</h2><br />
         <div class="row text-center">
-                                                    <div id="day0" class="col-md-offset-1 col-md-2" >
-                                                        <div id="data-day0">    
-                                                        </div>
-                                                        <div id="data-weather-day0">
-                                                            <div id="data-weather-icon-day0"></div>
-                                                            <div id="data-weather-description-day0"></div>
-                                                        </div>
-                                                        <div id="data-temperature-day0">
+            <div id="day0" class="col-sm-2 col-sm-offset-1 col-md-offset-1 col-md-2" >
+                <div id="data-day0">    
+                </div>
+                <div id="data-weather-day0">
+                    <div id="data-weather-icon-day0"></div>
+                    <div id="data-weather-description-day0"></div>
+                </div>
+                <div id="data-temperature-day0">
 
-                                                        </div>
-                                                    </div>
-                                                    <div id="day1" class="col-md-2" >
-                                                        <div id="data-day1">    
-                                                        </div>
-                                                        <div id="data-weather-day1">
-                                                            
-                                                            <div id="data-weather-icon-day1"></div>
-                                                            <div id="data-weather-description-day1"></div>
-                                                        </div>
-                                                        <div id="data-temperature-day1">
+                </div>
+            </div>
+            <div id="day1" class="col-sm-2 col-md-2" >
+                <div id="data-day1">    
+                </div>
+                <div id="data-weather-day1">
+                    
+                    <div id="data-weather-icon-day1"></div>
+                    <div id="data-weather-description-day1"></div>
+                </div>
+                <div id="data-temperature-day1">
 
-                                                        </div>
-                                                    
-                                                    </div>
-                                                    <div id="day2" class="col-md-2">
-                                                        <div id="data-day2">    
-                                                        </div>
-                                                        <div id="data-weather-day2" class="row">
-                                                            
-                                                            <div id="data-weather-icon-day2"></div>
-                                                            <div id="data-weather-description-day2"></div>
-                                                        </div>
-                                                        <div id="data-temperature-day2">
+                </div>
+            
+            </div>
+            <div id="day2" class="col-sm-2 col-md-2">
+                <div id="data-day2">    
+                </div>
+                <div id="data-weather-day2" class="row">
+                    
+                    <div id="data-weather-icon-day2"></div>
+                    <div id="data-weather-description-day2"></div>
+                </div>
+                <div id="data-temperature-day2">
 
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div id="day3" class="col-md-2">
-                                                        <div id="data-day3">    
-                                                        </div>
-                                                        <div id="data-weather-day3">
-                                                            
-                                                            <div id="data-weather-icon-day3"></div>
-                                                            <div id="data-weather-description-day3"></div>
-                                                        </div>
-                                                        <div id="data-temperature-day3">
+                </div>
+                
+            </div>
+            <div id="day3" class="col-sm-2 col-md-2">
+                <div id="data-day3">    
+                </div>
+                <div id="data-weather-day3">
+                    
+                    <div id="data-weather-icon-day3"></div>
+                    <div id="data-weather-description-day3"></div>
+                </div>
+                <div id="data-temperature-day3">
 
-                                                        </div>    
-                                                    </div> 
-                                                    <div id="day4" class="col-md-2">
-                                                    
-                                                        <div id="data-day4">    
-                                                        </div>
-                                                        <div id="data-weather-day4">
-                                                            
-                                                            <div id="data-weather-icon-day4"></div>
-                                                            <div id="data-weather-description-day4"></div>
-                                                        </div>
-                                                        <div id="data-temperature-day4">
+                </div>    
+            </div> 
+            <div id="day4" class="col-sm-2 col-md-2">
+            
+                <div id="data-day4">    
+                </div>
+                <div id="data-weather-day4">
+                    
+                    <div id="data-weather-icon-day4"></div>
+                    <div id="data-weather-description-day4"></div>
+                </div>
+                <div id="data-temperature-day4">
 
-                                                        </div>
-                                                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
